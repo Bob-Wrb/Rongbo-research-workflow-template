@@ -1,0 +1,41 @@
+# 身份凭据和本地设置
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets.*
+secrets/
+# 原始输入、保密资料和派生文件（任意层级）
+raw/
+raw_data/
+raw-data/
+private/
+confidential/
+outputs/
+generated/
+*.raw
+*.h5
+*.hdf5
+*.mat
+*.xlsx
+*.csv
+*.tsv
+*.pdf
+*.docx
+*.pptx
+*.png
+*.tiff
+*.zip
+# 环境与缓存
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
